@@ -1,0 +1,90 @@
+.banner {
+background: url("anhlop.jpg") no-repeat center center;
+background-size:cover;
+padding-top: 6rem;
+padding-bottom: 12rem;
+text-align: center !important;
+color: darkred !important;
+height: 550px;
+font-size: 30px;
+}
+.slogan {
+ text-align: center !important;
+ width: 100%;
+}
+.row {
+ display: flex;
+ flex-wrap: wrap;
+ margin-top:-1;
+ max-width: 100%;
+ padding-right: 3rem;
+ padding-left: 3rem;
+ background-color: lightgrey;
+}
+.block_3 {
+flex : 0 0 auto;
+width:30%;
+margin:10px;
+}
+.footer {
+background-color: lightgrey;
+margin:1px;
+padding:10px;
+}
+.clickable-image {
+    display: block;          /* Hiển thị ảnh theo dạng block để có thể căn giữa */
+    margin: 20px auto;         /* Căn giữa ảnh và tạo khoảng cách trên dưới */
+    max-width: 50%;           /* Giới hạn chiều rộng của ảnh */
+    height: 250px;             /* Giữ tỉ lệ ảnh */
+    border: 1px solid #ccc;   /* Viền cho ảnh */
+    cursor: pointer;          /* Thay đổi con trỏ khi di chuột, báo hiệu ảnh có thể nhấp được */
+  }
+  .cot{width: 50%;}
+  .tan{width: 50%;}
+  .table { width: 1000px;}
+  		/* CSS định dạng cho ô tìm kiếm */
+          .search-container {
+            text-align: center;            /* Căn giữa ô tìm kiếm */
+            margin: 20px 0;
+            }
+            .search-container input[type="text"] {
+            width: 60%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            }
+            .search-container button {
+            padding: 10px 15px;
+            font-size: 16px;
+            border: none;
+            background-color: #3498db;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 10px;
+            }
+            .search-container button:hover {
+            background-color: #2980b9;
+            }
+            
+            /* CSS định dạng cho thẻ hiển thị thông tin bạn bè */
+            #friendList {
+            text-align: center;
+            margin-top: 20px;
+            }
+            .friend-card {
+            display: inline-block;         /* Hiển thị dạng khối inline để các thẻ nằm cạnh nhau */
+            width: 200px;                  /* Chiều rộng của thẻ */
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+            }
+            .friend-card img {
+            width: 100%;                   /* Đảm bảo ảnh chiếm toàn bộ chiều rộng của thẻ */
+            height: 100px;
+            border-radius: 5px;
+            }
+.friend-card{text-align: center;}
